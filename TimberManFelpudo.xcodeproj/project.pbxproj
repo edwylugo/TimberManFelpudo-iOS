@@ -1,0 +1,635 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		59BBED372405CDEF009F55A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59BBED362405CDEF009F55A4 /* AppDelegate.swift */; };
+		59BBED392405CDEF009F55A4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59BBED382405CDEF009F55A4 /* SceneDelegate.swift */; };
+		59BBED3B2405CDEF009F55A4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59BBED3A2405CDEF009F55A4 /* ViewController.swift */; };
+		59BBED3E2405CDEF009F55A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59BBED3C2405CDEF009F55A4 /* Main.storyboard */; };
+		59BBED402405CDF1009F55A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59BBED3F2405CDF1009F55A4 /* Assets.xcassets */; };
+		59BBED432405CDF1009F55A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59BBED412405CDF1009F55A4 /* LaunchScreen.storyboard */; };
+		59BBED4E2405CDF1009F55A4 /* TimberManFelpudoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59BBED4D2405CDF1009F55A4 /* TimberManFelpudoTests.swift */; };
+		59BBED592405CDF1009F55A4 /* TimberManFelpudoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59BBED582405CDF1009F55A4 /* TimberManFelpudoUITests.swift */; };
+		59BBED6F2405CE21009F55A4 /* barril@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 59BBED662405CE21009F55A4 /* barril@2x.png */; };
+		59BBED702405CE21009F55A4 /* playerIdle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 59BBED672405CE21009F55A4 /* playerIdle@2x.png */; };
+		59BBED712405CE21009F55A4 /* pancada.wav in Resources */ = {isa = PBXBuildFile; fileRef = 59BBED682405CE21009F55A4 /* pancada.wav */; };
+		59BBED722405CE21009F55A4 /* barraOutline@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 59BBED692405CE21009F55A4 /* barraOutline@2x.png */; };
+		59BBED732405CE21009F55A4 /* trueCrimes.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 59BBED6A2405CE21009F55A4 /* trueCrimes.ttf */; };
+		59BBED742405CE21009F55A4 /* imagemFundo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 59BBED6B2405CE21009F55A4 /* imagemFundo@2x.png */; };
+		59BBED752405CE21009F55A4 /* somBolhaPop.wav in Resources */ = {isa = PBXBuildFile; fileRef = 59BBED6C2405CE21009F55A4 /* somBolhaPop.wav */; };
+		59BBED762405CE21009F55A4 /* playerHit@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 59BBED6D2405CE21009F55A4 /* playerHit@2x.png */; };
+		59BBED772405CE21009F55A4 /* barrilInimigo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 59BBED6E2405CE21009F55A4 /* barrilInimigo@2x.png */; };
+		59BBED792405CF29009F55A4 /* MinhaCena.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59BBED782405CF29009F55A4 /* MinhaCena.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		59BBED4A2405CDF1009F55A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 59BBED2B2405CDEF009F55A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 59BBED322405CDEF009F55A4;
+			remoteInfo = TimberManFelpudo;
+		};
+		59BBED552405CDF1009F55A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 59BBED2B2405CDEF009F55A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 59BBED322405CDEF009F55A4;
+			remoteInfo = TimberManFelpudo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		59BBED332405CDEF009F55A4 /* TimberManFelpudo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimberManFelpudo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		59BBED362405CDEF009F55A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		59BBED382405CDEF009F55A4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		59BBED3A2405CDEF009F55A4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		59BBED3D2405CDEF009F55A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		59BBED3F2405CDF1009F55A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		59BBED422405CDF1009F55A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		59BBED442405CDF1009F55A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59BBED492405CDF1009F55A4 /* TimberManFelpudoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimberManFelpudoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		59BBED4D2405CDF1009F55A4 /* TimberManFelpudoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimberManFelpudoTests.swift; sourceTree = "<group>"; };
+		59BBED4F2405CDF1009F55A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59BBED542405CDF1009F55A4 /* TimberManFelpudoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimberManFelpudoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		59BBED582405CDF1009F55A4 /* TimberManFelpudoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimberManFelpudoUITests.swift; sourceTree = "<group>"; };
+		59BBED5A2405CDF1009F55A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59BBED662405CE21009F55A4 /* barril@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "barril@2x.png"; sourceTree = "<group>"; };
+		59BBED672405CE21009F55A4 /* playerIdle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "playerIdle@2x.png"; sourceTree = "<group>"; };
+		59BBED682405CE21009F55A4 /* pancada.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = pancada.wav; sourceTree = "<group>"; };
+		59BBED692405CE21009F55A4 /* barraOutline@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "barraOutline@2x.png"; sourceTree = "<group>"; };
+		59BBED6A2405CE21009F55A4 /* trueCrimes.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = trueCrimes.ttf; sourceTree = "<group>"; };
+		59BBED6B2405CE21009F55A4 /* imagemFundo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "imagemFundo@2x.png"; sourceTree = "<group>"; };
+		59BBED6C2405CE21009F55A4 /* somBolhaPop.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = somBolhaPop.wav; sourceTree = "<group>"; };
+		59BBED6D2405CE21009F55A4 /* playerHit@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "playerHit@2x.png"; sourceTree = "<group>"; };
+		59BBED6E2405CE21009F55A4 /* barrilInimigo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "barrilInimigo@2x.png"; sourceTree = "<group>"; };
+		59BBED782405CF29009F55A4 /* MinhaCena.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinhaCena.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		59BBED302405CDEF009F55A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59BBED462405CDF1009F55A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59BBED512405CDF1009F55A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		59BBED2A2405CDEF009F55A4 = {
+			isa = PBXGroup;
+			children = (
+				59BBED352405CDEF009F55A4 /* TimberManFelpudo */,
+				59BBED4C2405CDF1009F55A4 /* TimberManFelpudoTests */,
+				59BBED572405CDF1009F55A4 /* TimberManFelpudoUITests */,
+				59BBED342405CDEF009F55A4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		59BBED342405CDEF009F55A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				59BBED332405CDEF009F55A4 /* TimberManFelpudo.app */,
+				59BBED492405CDF1009F55A4 /* TimberManFelpudoTests.xctest */,
+				59BBED542405CDF1009F55A4 /* TimberManFelpudoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		59BBED352405CDEF009F55A4 /* TimberManFelpudo */ = {
+			isa = PBXGroup;
+			children = (
+				59BBED692405CE21009F55A4 /* barraOutline@2x.png */,
+				59BBED662405CE21009F55A4 /* barril@2x.png */,
+				59BBED6E2405CE21009F55A4 /* barrilInimigo@2x.png */,
+				59BBED6B2405CE21009F55A4 /* imagemFundo@2x.png */,
+				59BBED682405CE21009F55A4 /* pancada.wav */,
+				59BBED6D2405CE21009F55A4 /* playerHit@2x.png */,
+				59BBED672405CE21009F55A4 /* playerIdle@2x.png */,
+				59BBED6C2405CE21009F55A4 /* somBolhaPop.wav */,
+				59BBED6A2405CE21009F55A4 /* trueCrimes.ttf */,
+				59BBED362405CDEF009F55A4 /* AppDelegate.swift */,
+				59BBED382405CDEF009F55A4 /* SceneDelegate.swift */,
+				59BBED3A2405CDEF009F55A4 /* ViewController.swift */,
+				59BBED3C2405CDEF009F55A4 /* Main.storyboard */,
+				59BBED3F2405CDF1009F55A4 /* Assets.xcassets */,
+				59BBED412405CDF1009F55A4 /* LaunchScreen.storyboard */,
+				59BBED442405CDF1009F55A4 /* Info.plist */,
+				59BBED782405CF29009F55A4 /* MinhaCena.swift */,
+			);
+			path = TimberManFelpudo;
+			sourceTree = "<group>";
+		};
+		59BBED4C2405CDF1009F55A4 /* TimberManFelpudoTests */ = {
+			isa = PBXGroup;
+			children = (
+				59BBED4D2405CDF1009F55A4 /* TimberManFelpudoTests.swift */,
+				59BBED4F2405CDF1009F55A4 /* Info.plist */,
+			);
+			path = TimberManFelpudoTests;
+			sourceTree = "<group>";
+		};
+		59BBED572405CDF1009F55A4 /* TimberManFelpudoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				59BBED582405CDF1009F55A4 /* TimberManFelpudoUITests.swift */,
+				59BBED5A2405CDF1009F55A4 /* Info.plist */,
+			);
+			path = TimberManFelpudoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		59BBED322405CDEF009F55A4 /* TimberManFelpudo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59BBED5D2405CDF1009F55A4 /* Build configuration list for PBXNativeTarget "TimberManFelpudo" */;
+			buildPhases = (
+				59BBED2F2405CDEF009F55A4 /* Sources */,
+				59BBED302405CDEF009F55A4 /* Frameworks */,
+				59BBED312405CDEF009F55A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TimberManFelpudo;
+			productName = TimberManFelpudo;
+			productReference = 59BBED332405CDEF009F55A4 /* TimberManFelpudo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		59BBED482405CDF1009F55A4 /* TimberManFelpudoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59BBED602405CDF1009F55A4 /* Build configuration list for PBXNativeTarget "TimberManFelpudoTests" */;
+			buildPhases = (
+				59BBED452405CDF1009F55A4 /* Sources */,
+				59BBED462405CDF1009F55A4 /* Frameworks */,
+				59BBED472405CDF1009F55A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				59BBED4B2405CDF1009F55A4 /* PBXTargetDependency */,
+			);
+			name = TimberManFelpudoTests;
+			productName = TimberManFelpudoTests;
+			productReference = 59BBED492405CDF1009F55A4 /* TimberManFelpudoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		59BBED532405CDF1009F55A4 /* TimberManFelpudoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59BBED632405CDF1009F55A4 /* Build configuration list for PBXNativeTarget "TimberManFelpudoUITests" */;
+			buildPhases = (
+				59BBED502405CDF1009F55A4 /* Sources */,
+				59BBED512405CDF1009F55A4 /* Frameworks */,
+				59BBED522405CDF1009F55A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				59BBED562405CDF1009F55A4 /* PBXTargetDependency */,
+			);
+			name = TimberManFelpudoUITests;
+			productName = TimberManFelpudoUITests;
+			productReference = 59BBED542405CDF1009F55A4 /* TimberManFelpudoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		59BBED2B2405CDEF009F55A4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Edwy Lugo";
+				TargetAttributes = {
+					59BBED322405CDEF009F55A4 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					59BBED482405CDF1009F55A4 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 59BBED322405CDEF009F55A4;
+					};
+					59BBED532405CDF1009F55A4 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 59BBED322405CDEF009F55A4;
+					};
+				};
+			};
+			buildConfigurationList = 59BBED2E2405CDEF009F55A4 /* Build configuration list for PBXProject "TimberManFelpudo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 59BBED2A2405CDEF009F55A4;
+			productRefGroup = 59BBED342405CDEF009F55A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				59BBED322405CDEF009F55A4 /* TimberManFelpudo */,
+				59BBED482405CDF1009F55A4 /* TimberManFelpudoTests */,
+				59BBED532405CDF1009F55A4 /* TimberManFelpudoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		59BBED312405CDEF009F55A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59BBED702405CE21009F55A4 /* playerIdle@2x.png in Resources */,
+				59BBED752405CE21009F55A4 /* somBolhaPop.wav in Resources */,
+				59BBED432405CDF1009F55A4 /* LaunchScreen.storyboard in Resources */,
+				59BBED402405CDF1009F55A4 /* Assets.xcassets in Resources */,
+				59BBED742405CE21009F55A4 /* imagemFundo@2x.png in Resources */,
+				59BBED772405CE21009F55A4 /* barrilInimigo@2x.png in Resources */,
+				59BBED762405CE21009F55A4 /* playerHit@2x.png in Resources */,
+				59BBED712405CE21009F55A4 /* pancada.wav in Resources */,
+				59BBED722405CE21009F55A4 /* barraOutline@2x.png in Resources */,
+				59BBED732405CE21009F55A4 /* trueCrimes.ttf in Resources */,
+				59BBED6F2405CE21009F55A4 /* barril@2x.png in Resources */,
+				59BBED3E2405CDEF009F55A4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59BBED472405CDF1009F55A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59BBED522405CDF1009F55A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		59BBED2F2405CDEF009F55A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59BBED3B2405CDEF009F55A4 /* ViewController.swift in Sources */,
+				59BBED372405CDEF009F55A4 /* AppDelegate.swift in Sources */,
+				59BBED792405CF29009F55A4 /* MinhaCena.swift in Sources */,
+				59BBED392405CDEF009F55A4 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59BBED452405CDF1009F55A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59BBED4E2405CDF1009F55A4 /* TimberManFelpudoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59BBED502405CDF1009F55A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59BBED592405CDF1009F55A4 /* TimberManFelpudoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		59BBED4B2405CDF1009F55A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 59BBED322405CDEF009F55A4 /* TimberManFelpudo */;
+			targetProxy = 59BBED4A2405CDF1009F55A4 /* PBXContainerItemProxy */;
+		};
+		59BBED562405CDF1009F55A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 59BBED322405CDEF009F55A4 /* TimberManFelpudo */;
+			targetProxy = 59BBED552405CDF1009F55A4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		59BBED3C2405CDEF009F55A4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				59BBED3D2405CDEF009F55A4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		59BBED412405CDF1009F55A4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				59BBED422405CDF1009F55A4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		59BBED5B2405CDF1009F55A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		59BBED5C2405CDF1009F55A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		59BBED5E2405CDF1009F55A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 83NFHDY43B;
+				INFOPLIST_FILE = TimberManFelpudo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.edwylugo.TimberManFelpudo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		59BBED5F2405CDF1009F55A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 83NFHDY43B;
+				INFOPLIST_FILE = TimberManFelpudo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.edwylugo.TimberManFelpudo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		59BBED612405CDF1009F55A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 83NFHDY43B;
+				INFOPLIST_FILE = TimberManFelpudoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.edwylugo.TimberManFelpudoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TimberManFelpudo.app/TimberManFelpudo";
+			};
+			name = Debug;
+		};
+		59BBED622405CDF1009F55A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 83NFHDY43B;
+				INFOPLIST_FILE = TimberManFelpudoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.edwylugo.TimberManFelpudoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TimberManFelpudo.app/TimberManFelpudo";
+			};
+			name = Release;
+		};
+		59BBED642405CDF1009F55A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 83NFHDY43B;
+				INFOPLIST_FILE = TimberManFelpudoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.edwylugo.TimberManFelpudoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TimberManFelpudo;
+			};
+			name = Debug;
+		};
+		59BBED652405CDF1009F55A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 83NFHDY43B;
+				INFOPLIST_FILE = TimberManFelpudoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.edwylugo.TimberManFelpudoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TimberManFelpudo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		59BBED2E2405CDEF009F55A4 /* Build configuration list for PBXProject "TimberManFelpudo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59BBED5B2405CDF1009F55A4 /* Debug */,
+				59BBED5C2405CDF1009F55A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59BBED5D2405CDF1009F55A4 /* Build configuration list for PBXNativeTarget "TimberManFelpudo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59BBED5E2405CDF1009F55A4 /* Debug */,
+				59BBED5F2405CDF1009F55A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59BBED602405CDF1009F55A4 /* Build configuration list for PBXNativeTarget "TimberManFelpudoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59BBED612405CDF1009F55A4 /* Debug */,
+				59BBED622405CDF1009F55A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59BBED632405CDF1009F55A4 /* Build configuration list for PBXNativeTarget "TimberManFelpudoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59BBED642405CDF1009F55A4 /* Debug */,
+				59BBED652405CDF1009F55A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 59BBED2B2405CDEF009F55A4 /* Project object */;
+}
